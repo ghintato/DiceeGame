@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1, h2 {
+    color: #4ECCA3;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    margin: 50px 0;
+}
+
+.playerField {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+}
+
+.diceImg {
+    height: 150px;
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url(fonts/IndieFlower-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'Lobster';
+    src: url(fonts/Lobster-Regular.ttf);
+  }
